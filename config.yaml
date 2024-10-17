@@ -1,0 +1,14 @@
+model_flickr: nsandiman/imagecraft-pt-fk-224
+model_coco: models/imagecraft-pt-co-224
+model_tiny: models/imagecraft-pt-ty-224
+checkpoint_dir: models/checkpoint
+pretrained_dir: models/pretrained
+model_dir: models
+data:
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+  log_dir: data/logs
+  wandb_dir: data/wandb
+  tensorboard_log_dir: data/tensorboard/logs
+
